@@ -1,0 +1,176 @@
+/* Estilo del background gradiente */
+body {
+    background: linear-gradient(10deg, #05053D 0%, #01012e 50%, #000000 100%);
+    margin-top: 3px;
+    color: #05053D;
+    min-height: 100vh;
+}
+
+/* Wstilo en el Nav Var */
+.navbar {
+    background-color: #05053D !important;
+    padding: 0.8rem 2rem !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 20px;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #FAD757 !important;
+}
+
+.dropdown-menu {
+    background-color: #020225 !important;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+    background-color: #FAD757 !important;
+    color: #05053D !important;
+    font-weight: 500;
+}
+
+/* Estilo de cards */
+.card {
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(5, 5, 61, 0.1);
+    border: 1px solid #05053D;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(5, 5, 61, 0.2);
+}
+
+.card-body {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #ffffff;
+}
+
+.card-title {
+    color: #05053D;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #666 !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.cards-wrapper {
+    display: flex;
+}
+
+.card_noticia {
+    margin: 0 .5md;
+    width: calc(100%/3);
+    transition: transform 0.3s ease !important;
+    margin-bottom: 40px !important;
+    border-radius: 15px !important;
+    box-shadow: 0 4px 8px rgba(5, 5, 61, 0.1) !important;
+}
+
+.card_noticia:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 12px rgba(5, 5, 61, 0.2) !important;
+}
+
+.btn-primary {
+    display: block;
+    margin: 0 auto;
+    background-color: #05053D;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #FAD757;
+    color: #05053D;
+    font-weight: bold;
+}
+
+/* TITULOS Y PARRAFOS */
+.title {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.title h2 {
+    color: #ffffff !important;
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    margin: 0 !important;
+    padding: 0.5rem !important;
+}
+
+#header {
+    color: #ffffff ;
+    font-weight: bold;
+    text-align: center;
+}
+
+#paragraph_filler {
+    color: #ffffff ;
+    font-weight: lighter;
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* ===== FORMULARIO ===== */
+.card-header-cen {
+    background-color: #05053D;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 15px 15px 0 0;
+}
+
+.form-control:focus {
+    border-color: #FAD757;
+    box-shadow: 0 0 0 0.25rem rgba(250, 215, 87, 0.25);
+}
+
+.form_text {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn-form {
+    display: block;
+    margin: 0 auto;
+    background-color: #4b4b69;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    color: #ffffff;
+}
+
+.btn-form:hover {
+    background-color: #FAD757;
+    color: #05053D;
+    font-weight: bold;
+}

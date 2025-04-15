@@ -86,6 +86,7 @@ body {
     margin-bottom: 40px !important;
     border-radius: 15px !important;
     box-shadow: 0 4px 8px rgba(5, 5, 61, 0.1) !important;
+    font-size: large;
 }
 
 .card_noticia:hover {
